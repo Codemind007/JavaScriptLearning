@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <script>
+        // run this function when the document is loaded
+        window.onload = () => {
+          const heading = document.createElement("h1");
+          const headingText = document.createTextNode("This is h1 element");
+          heading.appendChild(headingText);
+          document.body.appendChild(heading);
+
+          const para = document.createElement("p");
+          const paraText = document.createTextNode("This is paragraph");
+          para.appendChild(paraText);
+          document.body.appendChild(para);
+        };
+      </script>
+    </head>
+    <body></body>
+  </html>
