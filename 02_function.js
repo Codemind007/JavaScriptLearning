@@ -53,8 +53,13 @@ function rajuBhaiya(paisa){
  function multiply(num1, num2){
   var result = num1 * num2;
   console.log(result);
-  // return result;
+  return result;
  }
+ console.log("Function with arguments and return value");
+ console.log("Function with arguments and return value");
+ console.log("Function with arguments and return value");
+
+
  console.log("multiply",multiply(10, 10));
  
  var multiplyResult =  multiply(56, 45);
